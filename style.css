@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital@1&display=swap');
+body,
+header,
+main,
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e1d8cb;
+    color: rgb(13, 13, 57);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 50px;
+    background: white;
+    color: rgb(13, 13, 57);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+header .container {
+    display: flex;
+}
+
+.logo-phone {
+    padding-top: 10px;
+    height: 20px;
+}
+
+margin-left: auto .logo-mail {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 100px;
+    height: 20px;
+}
+
+.info {
+    padding-left: 100px;
+    padding-right: 100px;
+}
