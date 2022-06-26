@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital@1&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:ital@1&display=swap');*/
+
 body,
 header,
 main,
@@ -9,23 +12,23 @@ footer {
 
 body {
     background: #e1d8cb;
-    color: rgb(13, 13, 57);
+    color: rgb(22, 22, 22);
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
 header {
     height: 50px;
     background: white;
-    color: rgb(13, 13, 57);
+    color: rgb(22, 22, 22);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     max-width: 1100px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 0px 100px 0px 100px;
 }
 
 header .container {
@@ -38,13 +41,12 @@ header .container {
 }
 
 .logo-mail {
-    margin: 13px 10px 10px 80px;
+    margin: 13px 10px 10px 100px;
     height: 20px;
 }
 
 .button-about {
-    margin-left: 450px;
-    margin-right: 30px;
+    margin: 0px 30px 0px 400px;
 }
 
 .button-contact,
@@ -55,12 +57,65 @@ header .container {
     cursor: pointer;
     overflow: hidden;
     transition: 0s;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     height: 50px;
+    float: right;
 }
 
 .button-contact:hover,
 .button-about:hover {
     background-color: #c1d6e9;
+}
+
+main {
+    background-color: #e1d8cb;
+    color: rgb(22, 22, 22);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .content {}
+
+.content {}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 125px 0px 0px 75px;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0px 0px 75px;
+}
+
+.main-pic {
+    height: 500px;
+    float: right;
+    padding-left: 100px;
+    padding-right: 100px;
+    transform: translateY(-40px);
+}
+
+.mini-info {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 75px 0px 0px 20px;
+}
+
+.line {
+    background-color: #333333;
+    height: 200px;
+    margin-top: 200px;
+}
+
+.square {
+    background-color: white;
+    height: 180px;
+    width: 465px;
+    margin: 115px 0px 0px 50px;
+    float: left;
 }
