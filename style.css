@@ -11,7 +11,7 @@ footer {
 }
 
 body {
-    background: #e1d8cb;
+    background: #e6ded6;
     color: rgb(22, 22, 22);
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -46,7 +46,7 @@ header .container {
 }
 
 .button-about {
-    margin: 0px 30px 0px 400px;
+    margin: 0px 30px 0px 350px;
 }
 
 .button-contact,
@@ -58,8 +58,11 @@ header .container {
     overflow: hidden;
     transition: 0s;
     font-size: 16px;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
     font-family: 'Montserrat', sans-serif;
-    height: 50px;
+    height: 20px;
     float: right;
 }
 
@@ -69,7 +72,7 @@ header .container {
 }
 
 main {
-    background-color: #e1d8cb;
+    background-color: #e6ded6;
     color: rgb(22, 22, 22);
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
@@ -83,12 +86,14 @@ h1 {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-stretch: ultra-expanded;
     margin: 125px 0px 0px 75px;
 }
 
 h2 {
     font-size: 36px;
     font-family: 'Montserrat', sans-serif;
+    font-stretch: ultra-expanded;
     margin: 10px 0px 0px 75px;
 }
 
@@ -118,4 +123,51 @@ h2 {
     width: 465px;
     margin: 115px 0px 0px 50px;
     float: left;
+}
+
+#about {
+    background-color: white;
+    height: 750px;
+    margin-top: 75px;
+    color: rgb(22, 22, 22);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.circle {
+    background-color: #c1d6e9;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 275px;
+}
+
+h3 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-stretch: ultra-expanded;
+    position: absolute;
+    top: 215px;
+    left: 65px;
+}
+
+.about-info {
+    font-size: 20px;
+    width: 600px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 335px;
+    left: 65px;
+}
+
+.woman-pic {
+    width: 650px;
+    float: right;
+    margin: 175px 50px 0px 100px;
+    border-radius: 50px;
 }
