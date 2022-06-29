@@ -12,7 +12,7 @@ footer {
 
 body {
     background: #e6ded6;
-    color: rgb(22, 22, 22);
+    color: #333333;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -73,9 +73,10 @@ header .container {
 
 main {
     background-color: #e6ded6;
-    color: rgb(22, 22, 22);
-    font-size: 40px;
+    color: #333333;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    height: 1100px;
 }
 
 main .content {}
@@ -98,11 +99,11 @@ h2 {
 }
 
 .main-pic {
-    height: 500px;
+    height: 550px;
     float: right;
     padding-left: 100px;
     padding-right: 100px;
-    transform: translateY(-40px);
+    transform: translateY(-50px);
 }
 
 .mini-info {
@@ -111,11 +112,12 @@ h2 {
     padding: 75px 0px 0px 20px;
 }
 
-.line {
+
+/*.line {
     background-color: #333333;
     height: 200px;
     margin-top: 200px;
-}
+}*/
 
 .square {
     background-color: white;
@@ -127,8 +129,8 @@ h2 {
 
 #about {
     background-color: white;
-    height: 750px;
-    margin-top: 75px;
+    height: 700px;
+    margin-top: 400px;
     color: rgb(22, 22, 22);
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -141,17 +143,18 @@ h2 {
     height: 290px;
     border-radius: 50%;
     position: absolute;
-    top: 110px;
+    top: 90px;
     left: 275px;
 }
 
 h3 {
     font-size: 60px;
+    color: #333333;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-stretch: ultra-expanded;
     position: absolute;
-    top: 215px;
+    top: 195px;
     left: 65px;
 }
 
@@ -161,13 +164,72 @@ h3 {
     line-height: 40px;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    top: 335px;
+    top: 315px;
     left: 65px;
 }
 
 .woman-pic {
     width: 650px;
     float: right;
-    margin: 175px 50px 0px 100px;
+    margin: 100px 50px 0px 100px;
     border-radius: 50px;
+}
+
+footer {
+    background-color: lightgray;
+    font-size: 20px;
+    height: 500px;
+    color: #4d4d4d;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-top: 100px;
+}
+
+h4 {
+    font-size: 32px;
+    padding: 150px 0px 30px 75px;
+    margin: 0;
+    font-stretch: ultra-expanded;
+}
+
+.street,
+.mail,
+.number {
+    padding: 15px 0px 0px 75px;
+    margin: 0;
+}
+
+.number {
+    display: flex;
+}
+
+.logo-phone2 {
+    margin-right: 10px;
+    height: 25px;
+}
+
+.links {
+    display: flex;
+    margin: 30px 0px 0px 75px;
+}
+
+.tg-logo,
+.vk-logo,
+.git-logo {
+    height: 30px;
+    padding-right: 30px;
+}
+
+.made-by {
+    background-color: #333333;
+    height: 55px;
+    margin-top: 100px;
+}
+
+.name-txt {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 18px 0px 0px 35px;
+    margin: 0;
 }
