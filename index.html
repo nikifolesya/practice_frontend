@@ -28,12 +28,14 @@
 
     <main>
         <div class="content">
-            <img src="./images/main.png" alt="picture" class="main-pic">
-            <h1>Hello, I'm Olesya Nikiforova</h1>
-            <h2>Frontend Developer</h2>
-        </div>
-        <div class="square">
-            <p class="mini-info">I am a beginner Frontend engineer.</p>
+            <div>
+                <img src="./images/main.png" alt="picture" class="main-pic">
+                <h1>Hello, I'm Olesya Nikiforova</h1>
+                <h2>Frontend Developer</h2>
+            </div>
+            <div class="square">
+                <p class="mini-info">I am a beginner Frontend engineer.</p>
+            </div>
         </div>
 
         <div id="about">
@@ -42,6 +44,11 @@
             <p class="about-info">I am a first-year student of the Information Technology (IT) Faculty at the Moscow Technical University of Communications and Informatics (MTUCI). I study Computer Science and Engineering speciality.</p>
             <img src="./images/business-woman.jpg" alt="woman" class="woman-pic">
         </div>
+
+        <div class="project">
+            <div></div>
+        </div>
+
         <!--  <div class="carousel-wrapper">
             <span id="item-1"></span>
             <span id="item-2"></span>
@@ -62,6 +69,7 @@
                 <a href="#item-1" class="arrow-next"></a>
             </div>
         </div>-->
+
     </main>
 
     <footer>
@@ -73,13 +81,14 @@
         </div>
 
         <div class="links">
-            <a href="https://t.me/nikifolesya" target="_blank"><img src="./images/tg.png" alt="tg" class="tg-logo"></a>
-            <a href="https://vk.com/nikifolesya" target="_blank"><img src="./images/vk.png" alt="vk" class="vk-logo"></a>
-            <a href="https://github.com/nikifolesya" target="_blank"><img src="./images/git.png" alt="git" class="git-logo"></a>
+            <a href="https://t.me/nikifolesya" target="_blank"><img src="./images/tg.png" alt="tg" class="logo"></a>
+            <a href="https://vk.com/nikifolesya" target="_blank"><img src="./images/vk.png" alt="vk" class="logo"></a>
+            <a href="https://github.com/nikifolesya" target="_blank"><img src="./images/git.png" alt="git" class="logo"></a>
         </div>
 
         <div class="feedback">
-            <form action="http://mihailmaximov.ru/projects/mail/post.php" method="post" name="form">
+            <form action="mail.php" enctype="multipart/form-data" method="post" name="form">
+                <input type="hidden" name="admin_email[]" value="olesya.nikiforova21@yandex.ru">
                 <input name="name" type="name" placeholder="Enter your Name" />
                 <br>
                 <input name="email" type="email" placeholder="Enter a valid email address" />
