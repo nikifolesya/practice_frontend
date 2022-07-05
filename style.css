@@ -83,7 +83,7 @@ header .container {
 
 main {
     background-color: #e6ded6;
-    color: #333333;
+    color: #4d4d4d;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -130,39 +130,10 @@ h2 {
 
 .main-pic {
     height: 450px;
-    /*padding-left: 100px;
-    padding-right: 100px;
-    transform: translateY(50px);*/
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-
-/*.mini-info {
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    top: 65px;
-    left: 20px;
-}
-
-
-.line {
-    background-color: #333333;
-    height: 200px;
-    margin-top: 200px;
-}
-
-.square {
-    background-color: white;
-    height: 180px;
-    width: 465px;
-    float: left;
-    position: absolute;
-    top: 340px;
-    left: 100px;
-}*/
 
 #about {
     background-color: white;
@@ -186,7 +157,7 @@ h2 {
 
 h3 {
     font-size: 60px;
-    color: #333333;
+    color: #4d4d4d;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-stretch: ultra-expanded;
@@ -236,6 +207,7 @@ h3 {
 
 h4 {
     font-size: 48px;
+    color: #4d4d4d;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-stretch: ultra-expanded;
@@ -309,7 +281,7 @@ footer {
 
 h6 {
     font-size: 32px;
-    padding: 115px 0px 30px 75px;
+    padding: 105px 0px 30px 65px;
     margin: 0;
     font-stretch: ultra-expanded;
 }
@@ -317,7 +289,7 @@ h6 {
 .street,
 .mail,
 .number {
-    padding: 15px 0px 0px 75px;
+    padding: 15px 0px 0px 65px;
     margin: 0;
 }
 
@@ -332,12 +304,29 @@ h6 {
 
 .links {
     display: flex;
-    margin: 30px 0px 0px 75px;
+    margin: 30px 0px 0px 65px;
 }
 
 .logo {
     height: 30px;
     padding-right: 30px;
+}
+
+.made-by {
+    background-color: #333333;
+    height: 40px;
+    margin-top: 55px;
+    position: relative;
+}
+
+.name-txt {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -381,20 +370,3 @@ textarea {
     width: 362px;
     background-color: transparent;
 }*/
-
-.made-by {
-    background-color: #333333;
-    height: 55px;
-    margin-top: 65px;
-    position: relative;
-}
-
-.name-txt {
-    color: #ffffff;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 18px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
