@@ -39,6 +39,12 @@ header .container {
     display: flex;
 }
 
+.phone-number a,
+.mail-adress a {
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
 .logo-phone {
     margin: 13px 10px 10px 10px;
     height: 23px;
