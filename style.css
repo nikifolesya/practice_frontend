@@ -273,7 +273,7 @@ h5 {
 footer {
     background-color: white;
     font-size: 20px;
-    height: 450px;
+    height: 470px;
     color: #4d4d4d;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -315,7 +315,7 @@ h6 {
 .made-by {
     background-color: #333333;
     height: 40px;
-    margin-top: 55px;
+    margin-top: 75px;
     position: relative;
 }
 
@@ -329,16 +329,13 @@ h6 {
     margin-right: auto;
 }
 
-
-/*.feedback {
+.feedback {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     float: right;
-    transform: translateY(-290px);
-    margin-bottom: -200px;
     position: absolute;
-    top: 1800px;
-    left: 955px;
+    top: 2015px;
+    left: 975px;
 }
 
 input {
@@ -352,12 +349,17 @@ input {
     background-color: transparent;
 }
 
-.b1 {
+.b4 {
     background: #333333;
     border: none;
     color: #fff;
     width: 402px;
     font-weight: 600;
+    transition: 0s;
+}
+
+.b4:hover {
+    background-color: #4d4d4d;
 }
 
 textarea {
@@ -369,4 +371,4 @@ textarea {
     font-size: 16px;
     width: 362px;
     background-color: transparent;
-}*/
+}
