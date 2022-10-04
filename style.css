@@ -278,6 +278,7 @@ footer {
     color: #4d4d4d;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    min-width: 1430px;
 }
 
 h6 {
