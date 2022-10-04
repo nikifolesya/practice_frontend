@@ -12,7 +12,7 @@ footer {
 }
 
 body {
-    background: lightgray;
+    background: white;
     color: #333333;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -292,6 +292,14 @@ h6 {
 .number {
     padding: 15px 0px 0px 65px;
     margin: 0;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+.mail a,
+.number a {
+    text-decoration: none;
+    color: rgb(22, 22, 22);
 }
 
 .number {
